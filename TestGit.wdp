@@ -23,7 +23,7 @@ project :
     64bits : true
     new_features_help :
      name : ""
-     internal_properties : BgAAAAYAAAAnec9oyUtdcApUMFSGJRXpPNJjgDRyAUcwfme+ovIyy8za7akjZvWZ6/oV7seVCiTd+PHWvc+urw==
+     internal_properties : BgAAAAYAAADpj402j5UTpRztWZb8wu0p/NKjwHRygQfwfqd+AlLSayx6DYlDRpX5S6LMVxzLvXOLLr+Y/41g4Q==
  elements :
   identifier : 0x438fbed707b7e3d9
   elements :
@@ -45,6 +45,15 @@ project :
      report :
       en-GB : UK
       es-ES : ES
+   -
+     name : Info
+     identifier : 0x4390bfce0030c81e
+     internal_properties : BgAAAAYAAACR4Ro83pppnYtoiSDaKmyllsIFVRfdxUPO21lJ9MOjkw2soizgJVrqx1oUsQceSe9iy23/0gme7uLfFxZi6ooqP2CE9EOE22UmdrSEIr5ujQ==
+     physical_name : .\Info.wwh
+     type : 65538
+     report :
+      en-GB : UK
+      es-ES : ES
   other_elements : []
   net_assemblies : []
   uwp_api : []
@@ -60,6 +69,13 @@ project :
  site_map :
   roots : []
   orphans :
+   -
+     name : Info
+     parameters : []
+     title :
+      en-GB : Info
+     description :
+      en-GB : Info
    -
      name : ListData
      parameters : []
