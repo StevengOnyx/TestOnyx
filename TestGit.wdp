@@ -23,7 +23,7 @@ project :
     64bits : true
     new_features_help :
      name : ""
-     internal_properties : BgAAAAYAAACY5BDY7ajrnIxtj6gVhq3mBohe2msRcbJ0Kr2siuUUBscCQSGrokgjEkp/6Aj5DBd2RqhTverrYVfx
+     internal_properties : BgAAAAYAAAAnec9oyUtdcApUMFSGJRXpPNJjgDRyAUcwfme+ovIyy8za7akjZvWZ6/oV7seVCiTd+PHWvc+urw==
  elements :
   identifier : 0x438fbed707b7e3d9
   elements :
@@ -32,6 +32,15 @@ project :
      identifier : 0x438fbf2007c0fe13
      internal_properties : BgAAAAYAAAAlVa6AgiZlqcck1ZwWXrhB0g7BkQPhyUfCHwXgkqMl+mjvdzmPTE7zuOMOrwcm6T2ODzmjHpWi8ubTGwoeLs7uYww4QPfIJzHygkAwlir6GQ==
      physical_name : .\Main.wwh
+     type : 65538
+     report :
+      en-GB : UK
+      es-ES : ES
+   -
+     name : ListData
+     identifier : 0x4390bd7e007e9d82
+     internal_properties : BgAAAAYAAAC49CKtlNO5mqQbjqlkWzJe7k+Z+KcTOBm90gugT7Ao7H3rfd/8nzF4/VRrGmHZeECVs8bCe2+Ymcc2RVs653hDyAdQ1pv19kGhU1Xj6K3H
+     physical_name : .\ListData.wwh
      type : 65538
      report :
       en-GB : UK
@@ -51,6 +60,13 @@ project :
  site_map :
   roots : []
   orphans :
+   -
+     name : ListData
+     parameters : []
+     title :
+      en-GB : ListData
+     description :
+      en-GB : ListData
    -
      name : Main
      parameters : []
